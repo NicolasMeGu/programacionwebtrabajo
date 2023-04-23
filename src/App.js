@@ -11,6 +11,7 @@ import Footer from "./containers/Footer";
 import Webappi from "./containers/WebAppi";
 import About2 from "./containers/About2";
 import Contact2 from "./containers/Contact2";
+import Webappi3 from "./containers/Webappi3";
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
           <Route exact path="/about" Component={About2}></Route>
           <Route exact path="/contact" Component={Contact2}></Route>
           <Route exact path="/webappi" Component={Webappi}></Route>
+          <Route exact path="/webappi3" Component={Webappi3}></Route>
+
           <Route exact path="*" Component={NotFound}></Route>
         </Routes>
       </Layout>

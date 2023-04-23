@@ -1,9 +1,11 @@
 import React from "react";
 import logo from "../images/IA (2).jpg";
+import Layout from "./Layout";
 
 function WebAppi() {
   return (
-    <div className="card container p-4 w-100">
+    <Layout>
+        <div className="card container p-4 w-100">
       <div className="main-header ">
         <img src={logo} className="card-img-top" alt="..." />
         <div className="card-body align-items-center">
@@ -14,6 +16,9 @@ function WebAppi() {
         </div>
       </div>
     </div>
+    
+    </Layout>
+    
   );
 }
 
