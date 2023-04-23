@@ -3,15 +3,17 @@ import Header from "./Header";
 import WebAppi from "./WebAppi";
 import Layout from "./Layout";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
-function Home() {
+function Contact2() {
   return (
     <Layout>
       <Header />
       <WebAppi />
+      <Contact />
       <Footer />
     </Layout>
   );
 }
 
-export default Home;
+export default Contact2;

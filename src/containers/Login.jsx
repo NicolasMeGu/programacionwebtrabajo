@@ -3,26 +3,26 @@ import '../styles/login.css'
 
 function Login() {
   return (
-    <div>
-      <div className="login">
+    <div className="login">
     <div className="form-container">
-      <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo"/>
-
-      <h1 className="title">Create a new password</h1>
-      <p className="subtitle">Enter a new passwrd for yue account</p>
+      <h1 className="title">My account</h1>
 
       <form action="/" className="form">
-        <label for="password" className="label">Password</label>
-        <input type="password" id="password" placeholder="*********" className="input input-password"/>
+        <div>
+          <label for="name" className="label">Name</label>
+          <input type="text" id="name" placeholder="Teff" className="input input-name"/>
 
-        <label for="new-password" className="label">Password</label>
-        <input type="password" id="new-password" placeholder="*********" className="input input-password"/>
+          <label for="email" className="label">Email</label>
+          <input type="text" id="email" placeholder="platzi@example.com" className="input input-email"/>
 
-        <input type="submit" value="Confirm" className="primary-button login-button"/>
+          <label for="password" className="label">Password</label>
+          <input type="password" id="password" placeholder="*********" className="input input-password"/>
+        </div>
+
+        <input type="submit" value="Create" className="primary-button login-button"/>
       </form>
     </div>
   </div>
-    </div>
   )
 }
 
